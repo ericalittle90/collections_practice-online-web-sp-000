@@ -25,3 +25,9 @@ end
 def reverse_array(int)
     int.reverse
 end
+
+def kesha_maker(array)
+array.each do |a|
+a.replace([2] "$")
+end
+end
