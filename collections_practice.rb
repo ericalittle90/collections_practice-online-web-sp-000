@@ -27,4 +27,3 @@ def reverse_array(int)
     a.reverse <=> b.reverse
   end
 end
-
