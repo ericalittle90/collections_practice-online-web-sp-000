@@ -44,6 +44,6 @@ end
 
 def add_s(array)
   array.except[1].collect do |word|
-    word << "s"
+    word + "s"
   end
 end
